@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+<struts>
+    <package name="encuestas" namespace="/encuestas" extends="struts-default">
+        <!-- Acciones del paquete encuestas -->
+        <action name="ProcesarEncuestaSatisfaccion" class="gal.jairochapela.encuestas.actions.EncuestaSatisfaccionAction">
+            <result name="success">/WEB-INF/encuestas/Gracias.jsp</result>
+            <result name="input">/WEB-INF/encuestas/FormEncuestaSatisfaccion.jsp</result>
+        </action>
+
+        <action name="EncuestaSatisfaccion">
+            <result>/WEB-INF/encuestas/FormEncuestaSatisfaccion.jsp</result>
+        </action>
+    </package>
+</struts>
