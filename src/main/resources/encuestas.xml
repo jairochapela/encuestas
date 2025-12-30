@@ -13,5 +13,9 @@
         <action name="EncuestaSatisfaccion">
             <result>/WEB-INF/encuestas/FormEncuestaSatisfaccion.jsp</result>
         </action>
+
+        <action name="Resultados" class="gal.jairochapela.encuestas.actions.ResultadosAction">
+            <result>/WEB-INF/encuestas/Resultados.jsp</result>
+        </action>
     </package>
 </struts>

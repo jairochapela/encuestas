@@ -1,0 +1,51 @@
+2025-12-30
+John Doe
+johndoe@acme.com
+43
+M
+9
+2
+false
+El servicio es muy interesante, pero le falta algo.
+Todavía no me convence del todo.
+---
+2025-12-30
+Jane Doe
+janedoe@example.com
+42
+F
+6
+4
+false
+Está bien.
+---
+2025-12-30
+Pepito
+pepito@hola.es
+33
+M
+5
+3
+false
+
+---
+2025-12-30
+Pepito
+pepito@hola.es
+33
+M
+5
+3
+false
+
+---
+2025-12-30
+Ana
+ana@acme.com
+22
+F
+7
+4
+false
+
+---

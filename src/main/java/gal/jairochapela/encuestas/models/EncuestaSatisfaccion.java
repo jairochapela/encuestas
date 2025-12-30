@@ -3,6 +3,7 @@ package gal.jairochapela.encuestas.models;
 public class EncuestaSatisfaccion {
     
     private String nombre;
+    private String email;
     private int edad;
     private String sexo; // (M)asculino, (F)emenino, (O)tro
     private int puntuacion; // De 0 a 10
@@ -12,6 +13,7 @@ public class EncuestaSatisfaccion {
 
     public EncuestaSatisfaccion() {
         this.nombre = "";
+        this.email = "";
         this.edad = 0;
         this.sexo = "";
         this.puntuacion = 0;
@@ -28,6 +30,15 @@ public class EncuestaSatisfaccion {
         this.nombre = nombre;
     }
 
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    
     public int getEdad() {
         return edad;
     }
@@ -78,10 +89,12 @@ public class EncuestaSatisfaccion {
 
     @Override
     public String toString() {
-        return "EncuestaSatisfaccion [nombre=" + nombre + ", edad=" + edad + ", sexo=" + sexo + ", puntuacion="
+        return "EncuestaSatisfaccion [nombre=" + nombre + ", email=" + email
+                + ", edad=" + edad + ", sexo=" + sexo + ", puntuacion="
                 + puntuacion + ", gradoSatisfaccion=" + gradoSatisfaccion + ", recomendarAmigos=" + recomendarAmigos
                 + ", comentarios=" + comentarios + "]";
     }
+
 
     
 }
